@@ -5,6 +5,7 @@ GitHub allows each step in a workflow to send text to the Actions interface usin
 
 If the file contains any text at the end of a step’s run, the text is written to the workflow summary and styled as Github Flavored Markdown.  Along with Markdown, we can also use emojis to add extra flair to the step summary.
 
+
 ## Example use of `GITHUB_STEP_SUMMARY`
 ```
 - name: Terraform Plan
